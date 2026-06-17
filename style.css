@@ -12,12 +12,13 @@ line-height:1.6;
 }
 
 .hero{
-height:90vh;
+height:100vh;
 background:
 linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
 url("images/front.jpeg");
 background-size:cover;
-background-position:center;
+background-position:center center;
+background-repeat:no-repeat;
 display:flex;
 justify-content:center;
 align-items:center;
